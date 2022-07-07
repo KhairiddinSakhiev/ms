@@ -1,0 +1,26 @@
+.fbtitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.headerphoto img{
+  
+    width: 800px;
+    height: 350px;  padding: 1px;
+}
+.fbheader{
+    display: flex;
+}.fbfeatcher{
+    margin-top: 80px;
+    display: flex;
+}.headertext{
+    width: 300px;
+    text-align: center;
+    padding-top: 90px;
+    padding-left: 20px;
+    background-color: #CCF0E6;
+}.featchertext{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 1.5em;
+}
