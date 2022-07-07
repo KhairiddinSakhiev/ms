@@ -7,9 +7,58 @@
     <link href="https://fonts.googleapis.com/css2?family=Charis+SIL&family=Cormorant+Garamond&family=Inter:wght@800&family=Lato:wght@100;400&family=Montserrat:wght@100;300&family=Orbitron&family=Outfit&family=Playfair+Display&family=Poppins:wght@200;300;400;500;600;700;800&family=Raleway:wght@300&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./css/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:wght@200;300;400&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Poppins:wght@100;300;400;500&family=Raleway:wght@200;300;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400&family=Yellowtail&display=swap" rel="stylesheet">
     <title>MS</title>
 </head>
 <body>
+    <div class="Mj-navbar">
+        <div class="Mj-brand"  data-aos="fade-right"
+        data-aos-duration="1500"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+            <img src="./img/brand2.png" alt=""> <img src="./img/brand1.png" alt="">
+        </div>
+        <ul data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+            <li>
+                <a id="Home" href="">Home</a >
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+            <li>
+                <a href="">Location</a>
+            </li>
+            <li>
+                <a href="">About Us</a>
+            </li>
+        </ul >
+        <button data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="1500">
+            <a href="">Sign Up</a>
+        </button>
+    </div>
+    <div class="Mj-main">
+        <div class="Mj-left">
+            <h1 data-aos="zoom-in-right" data-aos-duration="1500">Get the inspiration
+               <br> of interior design 
+               <br> here</h1>
+               <p  data-aos="zoom-out-right" data-aos-duration="1500">architecture not only about engineering, it even 
+              <br>  lands to art and aesthetics. With us, you will get 
+              <br>  a residentical design with an extraordinary touch 
+              <br>  of art.</p>
+              <a data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom" data-aos-duration="1500" id="letsgo" href="">Let’s go</a>
+        </div>
+        <div class="Mj-right" data-aos="flip-left"
+        data-aos-duration="1500">
+            <img src="./img/image 1.png" alt="">
+        </div>
+    </div>
     <div class="fbtitle">
         <h2>How it works</h2>
         <p>Spice up your space even simpler<br>
@@ -76,5 +125,9 @@
             <img src="./img/sponsors/4.png" alt="">
          </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
